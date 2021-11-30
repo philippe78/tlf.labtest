@@ -81,7 +81,7 @@ I have delivered with this solution two groups  of tests that cover the requirem
 
 With more time availble, the acceptance test can be done also using some third party tools as Katalon
 
-Only for the atomated tests, is required to create an active directory user on Azure and link it to the CRM as an application user, since is required the Client ID and Cient Secret. More details  [here](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/ad.pdf ("here")
+Only for the atomated tests, is required to create an active directory user on Azure and link it to the CRM as an application user, since is required the Client ID and Cient Secret. More details  [here](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/ad.pdf "here")
 
 
 # Manual Test 1
