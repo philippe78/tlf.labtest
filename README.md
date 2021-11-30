@@ -6,24 +6,24 @@
 ### Req 1 
 - Remove all accounts that are inactive: 
 	- An account is inactive when all these conditions are met: 
-		-  There aren't any related cases with status open
+		-  There aren't any related cases with status "open"
 		- The latest case closed is dated 3 years ago or more
 
 ###  Req 2
 
 - Add new field 'Legacy hold' , type boolean 
-	Only Read/Edit by user with security role “CEO-Business Manager”.
+	Only View/Edit by user with security role “CEO-Business Manager”.
 - Add new field 'Legacy Hold Details'
-	Only Read/Edit by user with security role “CEO-Business Manager”.
+	Only View/Edit by user with security role “CEO-Business Manager”.
 	
 ###  Req 3
 
 - When Selecting 'Yes' on 'Legacy hold' : 
-	- Warning Message appears, asking to confirm the action and requesting to fill the details   
+	- Warning Message appears, asking to confirm the action and requesting to fill in the details   
 
 
 ###  Req 4
-- When the system deletes the inactive accounts,  all the related entities are deleted as well,
+- When the system deleates the inactive accounts,  all the related entities are deleted as well
 
 ## How to build the code
 
@@ -109,7 +109,7 @@ The form should  contain  Legacy hold, and Legacy Hold details  under the sectio
 ![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/26.png "Solution Import")
 
 
-# Manual Test 2
+# Manual Test 3
 
 Description :
 
@@ -122,7 +122,7 @@ Trying to save, shows another warning message, preventing the operation.
 
 ![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/28.png "Solution Import")
 
-# Manual Test 3
+# Manual Test 4
 
 Description: 
 - Create a new account
@@ -132,6 +132,18 @@ Description:
 
 Result :
 The account and all the related entites will be removed from the system
+
+# Manual Test 4
+
+Description: the system should delete automatcally all the inactive accounts older than 3 years.
+Result: navigate on the system job under the menu "system advance settings"
+
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/33.png "Solution Import")
+
+Select from the view only "reccuring system jobs". A new system job called Retention policy should be present on the list.
+Click on Retention policy daily and check the section "selected query" and the section "next run"
+
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/34.png "Solution Import")
 
 # Automated Test
 
@@ -163,6 +175,7 @@ Bulk Deletion job
 		
 - Rollup field 
 		To count if there are any cases open for the account, and retrive the latest closure date
+		![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/32.png "Rollup")
 - Action 
 		to call the custom Code Activity
 - costum Activity
