@@ -163,6 +163,7 @@ Bulk Deletion job
 		
 - Rollup field 
 		To count if there are any cases open for the account, and retrive the latest closure date
+		![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/32.png "Rollup")
 - Action 
 		to call the custom Code Activity
 - costum Activity
