@@ -55,7 +55,7 @@ More details how to configure the AD later on the readme within the section Test
 
 ![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/15.png "Solution Import")
 
-- Follow the step to import from the wizard 
+- Follow the wizard steps to import the file 
 
 ![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/24.png "Solution Import")
 
@@ -67,6 +67,59 @@ More details how to configure the AD later on the readme within the section Test
 
 
 ## How to run any tests that you have written
+
+The tests are based on the 'Customer Service HUB Application', select it, when prompted the first login 
+
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/pict13.png "Solution Import")
+
+
+# Test 1
+
+Description :
+
+Login with a user without the role “CEO-Business Manager”.
+
+Result :
+The form should not contain any field for Legacy hold, under the section GDPR
+
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/25.png "Solution Import")
+
+# Test 2
+
+Description :
+
+Login with a user with  the role “CEO-Business Manager”.
+
+Result :
+The form should  contain  Legacy hold, and Legacy Hold details  under the section GDPR
+
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/27.png "Solution Import")
+
+
+# Test 2
+
+Description :
+
+"CEO-Business Manager”select  yes in the field 'legacy hold', and then try to save without filling the 'legacy hold details field'  
+
+Result :
+The form should  show before a warning message and setup mandatory the field legacy hold. 
+
+Trying to save, shows another warning message, preventing the operation.
+
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/28.png "Solution Import")
+
+# Test 3
+
+Description: 
+- Create a new account
+- Create a new case and fill the customer section with the new account just created
+- Add a new task
+- Delete the  account
+
+Result :
+The account and all the related entites will be removed from the system
+
 ## any assumptions that you’ve made
 
 
