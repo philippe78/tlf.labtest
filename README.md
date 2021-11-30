@@ -41,7 +41,7 @@ Open the  file tlf.labtest.sln inside the root folder of the project.
 
 Search for the file named app.config, open it  and  replace the ConnectionString  string with the value ClientID, ClientSecretm, from Azure AD. 
 
-More details how to configure the AD later on the readme within the section Test.
+More details how to configure the AD [here](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/ad.pdf "here")
 
 
 ## How to run the output
@@ -121,6 +121,29 @@ Result :
 The account and all the related entites will be removed from the system
 
 ## any assumptions that you’ve made
+
+I have tried to reduce as much as possibile Visual Studio and C#, in order to make the application simple to manage .
+
+What I have used on this project - 
+- Javascript : 
+		-The warning popup 
+		- The function that disable/enable field   according to the user role
+		- The Configuration page of the solution
+
+ Field Security role
+ 		- To prevent any other user to edit the field 'Legacy Hold and 'legacy hold details
+Bulk Deletion job
+		-To delete each day all the oldest inactive acccount
+- Rollup field 
+		-To count if there are any cases open for the account, and retrive the latest closure date
+- Action 
+		-to call the custom Code Activity
+- costum Activity
+	- To create the bulk deletion job
+
+
+
+
 
 
 ###End
