@@ -93,7 +93,7 @@ Login with a user with  the role “CEO-Business Manager”.
 Result :
 The form should  contain  Legacy hold, and Legacy Hold details  under the section GDPR
 
-![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/27.png "Solution Import")
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/26.png "Solution Import")
 
 
 # Test 2
