@@ -144,11 +144,13 @@ Select from the view only "reccuring system jobs". A new system job called 'Rete
 
 Click on it.
 
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/34.png "Solution Import")
+
 
 
 Check the section "selected query" and the section "next run"
 
-![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/34.png "Solution Import")
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/31.png "Solution Import")
 
 
 # Automated Test
