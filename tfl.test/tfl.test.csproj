@@ -126,8 +126,11 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actions.cs" />
+    <Compile Include="Entities.cs" />
+    <Compile Include="OptionSets.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="RetentionTest.cs" />
-    <Compile Include="TeamTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
