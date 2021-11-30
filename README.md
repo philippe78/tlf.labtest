@@ -156,6 +156,9 @@ What I have used on this project -
  		 To prevent any other user to edit the field 'Legacy Hold and 'legacy hold details
 Bulk Deletion job
 		To delete each day all the oldest inactive acccount
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/31.png "Solution Import")
+
+		
 - Rollup field 
 		To count if there are any cases open for the account, and retrive the latest closure date
 - Action 
