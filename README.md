@@ -126,20 +126,20 @@ I have tried to reduce as much as possibile Visual Studio and C#, in order to ma
 
 What I have used on this project - 
 - Javascript : 
-		The warning popup 
-		 The function that disable/enable field   according to the user role
-		 The Configuration page of the solution
+		-The warning popup 
+		- The function that disable/enable field   according to the user role
+		- The Configuration page of the solution
 
  Field Security role
- 		 To prevent any other user to edit the field 'Legacy Hold and 'legacy hold details
+ 		- To prevent any other user to edit the field 'Legacy Hold and 'legacy hold details
 Bulk Deletion job
-		To delete each day all the oldest inactive acccount
+		-To delete each day all the oldest inactive acccount
 - Rollup field 
-		To count if there are any cases open for the account, and retrive the latest closure date
+		-To count if there are any cases open for the account, and retrive the latest closure date
 - Action 
-		to call the custom Code Activity
+		-to call the custom Code Activity
 - costum Activity
-	 To create the bulk deletion job
+	- To create the bulk deletion job
 
 
 
