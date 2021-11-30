@@ -84,18 +84,9 @@ With more time availble, the acceptance test can be done also using some third p
 For the first group of test, is required to create an active directory user on Azure and link it to the CRM as an application user, more details on this manual that I have written [here](htthttps://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/ad.pdfp:// "here")
 
 
-# Automated Test
-
-- This test, create a new account, and add to it a new case, then try to delete the new account 
-- The test is succefull only if the case is deleted with  the releated  account 
 
 
-![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/29.png "Solution Import")
-
-
-![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/30.png "Solution Import")
-
-# Test 1
+# Manual Test 1
 
 Description :
 
@@ -106,7 +97,7 @@ The form should not contain any field for Legacy hold, under the section GDPR
 
 ![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/25.png "Solution Import")
 
-# Test 2
+# Manual Test 2
 
 Description :
 
@@ -118,7 +109,7 @@ The form should  contain  Legacy hold, and Legacy Hold details  under the sectio
 ![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/26.png "Solution Import")
 
 
-# Test 2
+# Manual Test 2
 
 Description :
 
@@ -131,7 +122,7 @@ Trying to save, shows another warning message, preventing the operation.
 
 ![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/28.png "Solution Import")
 
-# Test 3
+# Manual Test 3
 
 Description: 
 - Create a new account
@@ -141,6 +132,17 @@ Description:
 
 Result :
 The account and all the related entites will be removed from the system
+
+# Automated Test
+
+- This test, create a new account, and add to it a new case, then try to delete the new account 
+- The test is succefull only if the case is deleted with  the releated  account 
+
+
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/29.png "Solution Import")
+
+
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/30.png "Solution Import")
 
 ## any assumptions that you’ve made
 
