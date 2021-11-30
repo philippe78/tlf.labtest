@@ -23,7 +23,7 @@
 
 
 ###  Req 4
-- When the system deleates the inactive accounts,  all the related entities are deleted as well
+- When the system deletes the inactive accounts,  all the related entities are deleted as well
 
 ## How to build the code
 
@@ -32,7 +32,7 @@
 
 The solution contains two projects :
 
--  **tfl.test**: is a project for testing of  the application. 
+-  **tfl.test**: is a project for testing of the application. 
 -  **tlf.labtest**: is a Custom CodeActivity to create the bulkdeletion job.
 
 
@@ -41,13 +41,13 @@ Open the  file tlf.labtest.sln inside the root folder of the project.
 
 Search for the file named app.config, open it  and  replace the ConnectionString  string with the value ClientID, ClientSecretm, from Azure AD. 
 
-More details how to configure the AD [here](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/ad.pdf "here")
+More details how to configure the AD [here](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/ad.pdf ("here")
 
 
 ## How to run the output
 
 -  Download from the file lab_1_0_managed.zip, located under the folder 'CRM Solution'
--  Open the advance setting menu item from the new CRM Instance ( We are using for the instruction the classic view, but is  available other option as the  Power Platform )
+-  Open the advance setting menu item from the new CRM Instance ( We are using for the instruction the classic view, but is available other option as the  Power Platform )
 
 ![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/14.png "Solution Import")
 
@@ -68,7 +68,7 @@ More details how to configure the AD [here](https://raw.githubusercontent.com/ph
 
 ## How to run any tests that you have written
 
-The tests are based on the 'Customer Service HUB Application', select it, when prompted the first login as shown on the  image below : 
+The tests are based on the 'Customer Service HUB Application' select it when prompted the first login as shown on the  image below : 
 
 ![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/pict13.png "Solution Import")
 
@@ -81,7 +81,7 @@ I have delivered with this solution two groups  of tests that cover the requirem
 
 With more time availble, the acceptance test can be done also using some third party tools as Katalon
 
-For the first group of test, is required to create an active directory user on Azure and link it to the CRM as an application user, more details on this manual that I have written [here](htthttps://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/ad.pdfp:// "here")
+Only for the atomated tests, is required to create an active directory user on Azure and link it to the CRM as an application user, since is required the Client ID and Cient Secret. More details on this manual that I have written [here](htthttps://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/ad.pdfp:// "here")
 
 
 
