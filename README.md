@@ -36,7 +36,7 @@ The solution contains two projects :
 -  **tlf.labtest**: is a Custom CodeActivity to create the bulkdeletion job.
 
 
-Before building  the solution, follow the steps to link the CRM organisation with the Azure AD.
+
 Open the  file tlf.labtest.sln inside the root folder of the project. 
 
 Search for the file named app.config, open it  and  replace the ConnectionString  string with the value ClientID, ClientSecretm, from Azure AD. 
