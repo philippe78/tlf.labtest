@@ -68,10 +68,32 @@ More details how to configure the AD [here](https://raw.githubusercontent.com/ph
 
 ## How to run any tests that you have written
 
-The tests are based on the 'Customer Service HUB Application', select it, when prompted the first login 
+The tests are based on the 'Customer Service HUB Application', select it, when prompted the first login as shown on the  image below : 
 
 ![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/pict13.png "Solution Import")
 
+
+CRM Dynamics CE, has different modules build with different architetture, for each one the testing needs to follow a different approach.
+I have delivered with this solution two groups  of tests that cover the requirements.  
+
+ - Based on Visual studio UNIT Test, these are  automated but cover only the programming side 
+-  Acceptance test based on manual operations 
+
+With more time availble, the acceptance test can be done also using some third party tools as Katalon
+
+For the first group of test, is required to create an active directory user on Azure and link it to the CRM as an application user, more details on this manual that I have written [here](htthttps://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/ad.pdfp:// "here")
+
+
+# Automated Test
+
+- This test, create a new account, and add to it a new case, then try to delete the new account 
+- The test is succefull only if the case is deleted with  the releated  account 
+
+
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/29.png "Solution Import")
+
+
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/30.png "Solution Import")
 
 # Test 1
 
@@ -126,20 +148,20 @@ I have tried to reduce as much as possibile Visual Studio and C#, in order to ma
 
 What I have used on this project - 
 - Javascript : 
-		-The warning popup 
-		- The function that disable/enable field   according to the user role
-		- The Configuration page of the solution
+		The warning popup 
+		 The function that disable/enable field   according to the user role
+		 The Configuration page of the solution
 
  Field Security role
- 		- To prevent any other user to edit the field 'Legacy Hold and 'legacy hold details
+ 		 To prevent any other user to edit the field 'Legacy Hold and 'legacy hold details
 Bulk Deletion job
-		-To delete each day all the oldest inactive acccount
+		To delete each day all the oldest inactive acccount
 - Rollup field 
-		-To count if there are any cases open for the account, and retrive the latest closure date
+		To count if there are any cases open for the account, and retrive the latest closure date
 - Action 
-		-to call the custom Code Activity
+		to call the custom Code Activity
 - costum Activity
-	- To create the bulk deletion job
+	 To create the bulk deletion job
 
 
 
