@@ -116,6 +116,9 @@ Description :
 Result :
 The form should first display a warning message and setup mandatory the field legacy hold. 
 
+![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/27.png "Solution Import")
+
+
 When trying to save, displayes another warning message, preventing the operation.
 
 ![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/28.png "Solution Import")
