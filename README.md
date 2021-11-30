@@ -133,17 +133,23 @@ Description:
 Result :
 The account and all the related entites will be removed from the system
 
-# Manual Test 4
+# Manual Test 5
 
-Description: the system should delete automatcally all the inactive accounts older than 3 years.
-Result: navigate on the system job under the menu "system advance settings"
+Description: the system should delete automatically all the inactive accounts older than 3 years.
+Result: navigate on the 'system job' menu  under the voice  "Advance settings"
 
 ![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/33.png "Solution Import")
 
-Select from the view only "reccuring system jobs". A new system job called Retention policy should be present on the list.
-Click on Retention policy daily and check the section "selected query" and the section "next run"
+Select from the view only "reccuring system jobs". A new system job called 'Retention policy daily' should be present on the list.\
+
+Click on it.
+
+
+
+Check the section "selected query" and the section "next run"
 
 ![Solution Import](https://raw.githubusercontent.com/philippe78/tlf.labtest/master/CRMSolution/pictures/34.png "Solution Import")
+
 
 # Automated Test
 
